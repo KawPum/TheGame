@@ -21,5 +21,13 @@ public class MainActivity extends AppCompatActivity {
         Unit Nibba = new Robot("Nibba",550,400);
         Nibba.printInfo(debugText);
         Nibba.letsGO(debugText);
+
+        Wizard Snape = new Wizard("Snape", 80, 60000);
+        Snape.printInfo(debugText);
+        Snape.letsGO(debugText);
+
+        NPC npc = new NPC(0, "ожидает");
+        npc.printInfo(debugText);
+        npc.letsGO(debugText);
     }
 }
